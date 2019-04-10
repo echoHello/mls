@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-/** Test git 1 */
+/** Test git 2*/
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
