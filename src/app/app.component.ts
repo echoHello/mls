@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-/** Test git 2*/
+/** Test heroku*/
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
