@@ -11,7 +11,7 @@ export class NavComponent implements OnInit {
 
   appTitle = 'Metropolitan Legal Solutions';
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor(private authService: AuthService, public router: Router) { }
 
   ngOnInit() {
   }
