@@ -11,10 +11,6 @@ import { AuthService } from './auth.service';
 export class AppComponent {
   title = 'Metropolitan Legal Solutions';
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor(private authService: AuthService, public router: Router) { }
 
-  logout() {
-    this.authService.logout();
-    this.router.navigateByUrl('/login');
-  }
 }
