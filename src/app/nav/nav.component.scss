@@ -38,3 +38,16 @@ header {
     }
   }
 }
+
+@media all and (max-width:800px) //800px for tablets and phones.
+{
+    nav ul li
+    {
+        display: block;
+        float: both;
+        clear: both;
+        width: 100%;
+        padding-top:2em;
+        padding-bottom:2em;
+    }
+}

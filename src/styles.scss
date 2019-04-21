@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 body, html {
   height: 100%;
@@ -32,3 +33,30 @@ section {
   margin: 0 auto;
 }
 
+.paddedSection {
+  width: 80%;
+  margin: 0 auto;
+  padding:2em;
+  text-align: center;
+  border-top: 5px solid;
+  border-top-color: #083B66;
+  border-bottom: none!important;
+  box-shadow: 12px 0 15px -4px lightgray, -12px 0 8px -4px lightgray;
+}
+
+.card {
+  border: 0px!important;
+}
+
+.card-title {
+  font-family: 'Bree Serif', serif;
+  text-align: left;
+  padding-left:2em;
+}
+
+.title {
+  font-family: 'Bree Serif', serif;
+  text-align: left;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #083B66;
+}
