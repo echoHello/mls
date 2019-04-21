@@ -1,5 +1,7 @@
 header {
-  background: #270094;
+  background: white;
+  border-bottom: 5px solid;
+  border-bottom-color: #083B66;
 
   .logo {
     font-weight: bold;
@@ -11,6 +13,7 @@ header {
     justify-self: right;
     color:white;
     text-decoration: none!important;
+    margin-top: 50px;
 
     ul {
       list-style-type: none;
@@ -27,7 +30,8 @@ header {
           text-decoration: none;
 
           &:hover {
-            background: #3b0eb9;
+            background: gray;
+            color:white;
           }
         }
       }

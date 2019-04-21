@@ -1,7 +1,7 @@
 <header>
   <div class="container">
-    <a *ngIf="!this.authService.protected" routerLink="/home" class="logo">{{ appTitle }}</a>
-    <a *ngIf="this.authService.protected" routerLink="/client-home" class="logo">{{ appTitle }}</a>
+    <img *ngIf="!this.authService.protected" routerLink="/home" class="logo" src="assets/img/logo.png">
+    <img *ngIf="this.authService.protected" routerLink="/client-home" class="logo" src="assets/img/logo.png">
     <!-- Public nav -->
     <nav *ngIf="!this.authService.protected">
       <ul>
