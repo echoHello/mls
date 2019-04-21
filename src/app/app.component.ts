@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 import { AuthService } from './auth.service';
 
 @Component({
@@ -11,6 +11,11 @@ import { AuthService } from './auth.service';
 export class AppComponent {
   title = 'Metropolitan Legal Solutions';
 
-  constructor(private authService: AuthService, public router: Router) { }
-
+  constructor(private authService: AuthService, public router: Router) {
+    this.router.events.subscribe((ev) => {
+      if (ev instanceof NavigationEnd) {
+        console.log(authService.protected);
+      }
+    });
+  }
 }

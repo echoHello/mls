@@ -8,16 +8,15 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
-
   appTitle = 'Metropolitan Legal Solutions';
-
-  constructor(private authService: AuthService, public router: Router) { }
+  constructor(public authService: AuthService, public router: Router) {
+  }
 
   ngOnInit() {
   }
 
   logout() {
     this.authService.logout();
-    this.router.navigateByUrl('/login');
+    this.router.navigateByUrl('/');
   }
 }
