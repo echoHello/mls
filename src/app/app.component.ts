@@ -12,7 +12,7 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent {
   title = 'Metropolitan Legal Solutions';
 
-  constructor(private authService: AuthService, public router: Router,private titleService: Title ) {
+  constructor(private authService: AuthService, public router: Router, private titleService: Title ) {
     this.router.events.subscribe((ev) => {
       if (ev instanceof NavigationEnd) {
         console.log(authService.protected);
