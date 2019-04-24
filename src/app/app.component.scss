@@ -1,6 +1,15 @@
 footer {
   border-top:none!important;
   background: lightgray;
+  position: relative;
+  .disclaimer {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    color:gray;
+    font-size: 80%;
+    word-wrap: none;
+  }
 }
 
 

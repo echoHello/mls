@@ -1,5 +1,5 @@
 <header>
-  <div class="container">
+  <div class="container grid">
     <img *ngIf="!this.authService.protected" routerLink="/home" class="logo" src="assets/img/logo.png">
     <img *ngIf="this.authService.protected" routerLink="/client-home" class="logo" src="assets/img/logo.png">
     <!-- Public nav -->

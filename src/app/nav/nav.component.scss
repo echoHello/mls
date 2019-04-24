@@ -39,6 +39,10 @@ header {
   }
 }
 
+.grid {
+  grid-template-columns: 30% auto;
+}
+
 @media all and (max-width:800px) //800px for tablets and phones.
 {
     nav ul li

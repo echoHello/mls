@@ -1,15 +1,27 @@
 .card-body {
   text-align: left;
+  color:slategray;
+  padding-top:0px!important;
 }
 
 .sub {
-  padding-left:5em;
+  padding-left:3em;
 }
 
-.card-body {
-  justify-self: left;
-}
 
-.card {
+.card,.card-body,.list-group-item {
   word-wrap: normal;
+  background-color: inherit;
+}
+
+.gray {
+  background-color: #F0F0F0
+}
+
+.paddingTop {
+  padding-top:1em;
+}
+
+h5 {
+  color:darkslategray;
 }
