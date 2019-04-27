@@ -1,3 +1,70 @@
-<p>
-  contact works!
-</p>
+<img src="assets/img/contact-us.jpeg" alt="alt text" width="100%" height="100%" />
+<div class="container-fluid">
+  <div class="paddedSection">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-12">
+            <h5>Contact Information</h5>
+            <div class="text-muted left">
+              <b>Metropolitan Legal Solutions, LLP</b>
+              <p>510 King St., Suite 315</p>
+              <p>P.O. Box 2019</p>
+              <p>Alexandria, VA 22314</p>
+              <p>Phone: (703) 342-1133</p>
+              <p>Fax: (703) 342-2000</p>
+              <p>Email: attorneys@metrolegalsolutions.com </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-muted padded"><b>Questions? Please inquire below:</b></p>
+            <form (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                <textarea class="form-control" rows="5" [(ngModel)]="this.inputValue" name="inputValue"
+                  placeholder="Type your message here."></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="assets/img/firm-building.jpg" alt="alt text" width="100%" height="100%" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="secondaryPaddedSection">
+          <h5 class="title">Careers</h5>
+          <p class="center">At Metropolitan Legal Solutions, providing exemplary legal counsel to our clients is our
+            first priority. To
+            accomplish this, our culture is built upon a foundation of integrity, passion, and professionalism. We are
+            currently hiring for the following positions:</p>
+          <div class="list-group">
+            <a class="list-group-item list-group-item-action-secondary title">
+            </a>
+            <a class="list-group-item list-group-item-action">
+              <p>Litigation Attorney – Requires 2-3 years of experience in civil and/or criminal litigation. Qualified
+                candidates should possess a strong academic background, excellent research skills and well-developed
+                oral
+                and written communication skills.</p>
+            </a>
+            <a class="list-group-item list-group-item-action">
+              <p>Paralegal – 2-3 years of paralegal or court-related experience required. The ideal candidate will be
+                able
+                to efficiently conduct legal research on Westlaw, be well-organized and highly motivated, and be
+                proficient in Maryland, Virginia, and Washington, D.C. filing procedures.</p>
+            </a>
+          </div>
+          <p>Please forward cover letter and resume to: Mr. Leonardo Rocca, Managing Partner, Metropolitan Legal
+            Solutions, LLP, PO Box 2019, Alexandria, VA 22314, or by email to lrocca@metropolitanlegalsolutions.com.
+          </p>
+          <i>In addition to the above postings, we are happy to receive and consider résumés from exceptional
+            candidates.</i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

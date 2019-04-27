@@ -16,6 +16,7 @@ import { FirmProfileComponent } from './firm-profile/firm-profile.component';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { BillingComponent } from './billing/billing.component';
 import { DocumentsComponent } from './documents/documents.component';
+import { ClientContactComponent } from './client-contact/client-contact.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DocumentsComponent } from './documents/documents.component';
     FirmProfileComponent,
     OurTeamComponent,
     BillingComponent,
-    DocumentsComponent
+    DocumentsComponent,
+    ClientContactComponent
   ],
   imports: [
     BrowserModule,
