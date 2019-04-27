@@ -9,6 +9,7 @@ import { BillingComponent } from './billing/billing.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { FirmProfileComponent } from './firm-profile/firm-profile.component';
 import { OurTeamComponent } from './our-team/our-team.component';
+import { ClientContactComponent } from './client-contact/client-contact.component';
 
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'billing', component: BillingComponent },
   { path: 'documents', component: DocumentsComponent },
   { path: 'firm-profile', component: FirmProfileComponent },
-  { path: 'our-team', component: OurTeamComponent }
+  { path: 'our-team', component: OurTeamComponent },
+  { path: 'client-contact', component: ClientContactComponent }
 ];
 
 @NgModule({

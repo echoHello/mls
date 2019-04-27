@@ -9,7 +9,13 @@ export class ContactComponent implements OnInit {
 
   constructor() { }
 
+  inputValue = '';
+
   ngOnInit() {
   }
 
+  onSubmit() {
+    console.log(this.inputValue);
+    this.inputValue = '';
+  }
 }
