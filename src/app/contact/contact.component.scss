@@ -20,12 +20,26 @@ textarea {
   resize: none;
 }
 
-.list-group, .list-group-item {
-  border:none;
+.gray {
+  background-color: #f0f0f0;
+  padding:1.2em;
 }
 
-.list-group-item-action:hover {
-  background-color: lightgray;
+.blue {
+  color: #2A4482;
+  font-family: 'Bree Serif', serif;
+}
+
+.list-group-item-action {
+  border: 0px!important;
+  -moz-border-radius: 0px!important;
+  -webkit-border-radius: 0px!important;
+  border-radius: 0px!important;
+  padding:0px!important;
+}
+
+.list-group {
+    margin:1.5em 1em 1.5em 1em;
 }
 
 .secondaryPaddedSection {
