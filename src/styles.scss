@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
-body, html {
-  height: 100%;
+html {
   margin: 0 auto;
 }
 
 body {
   font-size: 18px;
   width: 100%;
+  min-height: 400px;
+  clear: both;
 }
 
 a {
@@ -20,7 +21,6 @@ a {
   margin: 0 auto;
   padding: 1.3em;
   display: grid;
-
   a {
     color: black!important;
   }
@@ -56,4 +56,21 @@ section {
   text-align: left;
   padding-bottom: 1em;
   border-bottom: 2px solid #083B66;
+  color:#083B66;
+}
+
+.sub-title {
+  font-family: 'Bree Serif', serif;
+  text-align: left;
+  color:#083B66;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+html { height: 100%; }
+
+.nopad {
+  padding-bottom:0px!important;
 }
