@@ -1,25 +1,25 @@
 footer {
   border-top:none!important;
   background: lightgray;
-  position: relative;
-  .disclaimer {
-    position: absolute;
-    bottom: 0;
-    text-align: right;
-    color:gray;
-    font-size: 80%;
-    word-wrap: none;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:150px;
+  p,span {
+    text-align:left;
   }
-}
-
-
-.fa {
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  float: left;
-  color: gray;
+  .disclaimer {
+    font-size:80%;
+    color:gray;
+  }
+  .fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    color: gray;
+  }
 }
 
 /* Add a hover effect if you want */
